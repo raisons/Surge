@@ -1,0 +1,7 @@
+#!name=RaisonSurge
+#!desc=Raison自用Surge模块
+
+
+[Rule]
+# 百度地图去开屏广告
+DOMAIN,afd.baidu.com,REJECT,extended-matching
