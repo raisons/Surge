@@ -5,3 +5,8 @@
 [Rule]
 # 百度地图去开屏广告
 DOMAIN,afd.baidu.com,REJECT,extended-matching
+
+
+[Script]
+# 莉景天气VIP
+lijing_vip = type=http-response, requires-body=1, pattern=^https://ljwapi.baichuan.tech/(VIP/GetState|User/GetPrivateUsers|Bate1/Vip/GetVipType).*, script-path=https://raw.githubusercontent.com/raisons/Surge/main/scripts/lijing.js
