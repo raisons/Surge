@@ -1,22 +1,22 @@
 # chatgpt
-DOMAIN,cdn.auth0.com,PROXY
+DOMAIN,cdn.auth0.com
 DOMAIN-SUFFIX,ai.com
 DOMAIN-SUFFIX,openai.com
 DOMAIN-SUFFIX,auth0.com
 DOMAIN-SUFFIX,chatgpt.com
 DOMAIN-SUFFIX,oaistatic.com
-DOMAIN-SUFFIX,sentry.io,PROXY
-DOMAIN-SUFFIX,hcaptcha.com,PROXY
-DOMAIN-SUFFIX,recaptcha.net,PROXY
-DOMAIN-SUFFIX,cdn.cloudflare.net,PROXY
-DOMAIN-SUFFIX,challenges.cloudflare.com,PROXY
-DOMAIN-SUFFIX,cloudflareinsights.com,PROXY
+DOMAIN-SUFFIX,sentry.io
+DOMAIN-SUFFIX,hcaptcha.com
+DOMAIN-SUFFIX,recaptcha.net
+DOMAIN-SUFFIX,cdn.cloudflare.net
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN-SUFFIX,cloudflareinsights.com
 # payment
 DOMAIN-SUFFIX,stripe.com
 # register
 DOMAIN-SUFFIX,arkoselabs.com
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 
-DOMAIN-KEYWORD,openai,PROXY
-DOMAIN-KEYWORD,openaiapi,PROXY
-DOMAIN-KEYWORD,openaipublic,PROXY
+DOMAIN-KEYWORD,openai
+DOMAIN-KEYWORD,openaiapi
+DOMAIN-KEYWORD,openaipublic
