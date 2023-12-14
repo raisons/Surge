@@ -1,5 +1,7 @@
 *.conf
 !Airplane.conf
 
+*.iosinterface
+
 .idea
 nssurge
