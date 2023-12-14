@@ -3,7 +3,7 @@
 
 [Script]
 # 莉景天气VIP
-lijing_vip = type=http-response, requires-body=1, pattern=^https://ljwapi.baichuan.tech/(VIP/GetState|User/GetPrivateUsers|Bate1/Vip/GetVipType).*, script-path=https://raisons.github.io/surge/modules/lijing/lijing.js
+lijing_vip = type=http-response, requires-body=1, pattern=^https://ljwapi.baichuan.tech/(VIP/GetState|User/GetPrivateUsers|Bate1/Vip/GetVipType).*, script-path=lijing.js
 
 [MITM]
 hostname = %APPEND% ljwapi.baichuan.tech
